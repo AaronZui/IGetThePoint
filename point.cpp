@@ -15,7 +15,7 @@ public:
         x = a;
         y = b;
     };
-int operator-(const point& b){
+float operator-(const point& b){
     return(sqrt((pow(b.x-this->x,2))+(pow(b.y-this->y,2))));
 }
 point operator/(const point& b){
